@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/layout_status"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/status_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/status_check_icon"
+            android:padding="5dp"
+            android:text="距离：1km"
+            android:textColor="@drawable/status_check_color"
+            android:textSize="12dp" />
+
+        <CheckBox
+            android:id="@+id/status_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:button="@null"
+            android:padding="5dp"
+            android:text="销量"
+            android:textColor="@drawable/status_check_color"
+            android:textSize="12dp" />
+
+        <CheckBox
+            android:id="@+id/status_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:button="@null"
+            android:padding="5dp"
+            android:text="点评高分"
+            android:textColor="@drawable/status_check_color"
+            android:textSize="12dp" />
+
+        <CheckBox
+            android:id="@+id/status_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:button="@null"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/status_check_icon"
+            android:padding="5dp"
+            android:text="商品类型"
+            android:textColor="@drawable/status_check_color"
+            android:textSize="12dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>
